@@ -68,6 +68,7 @@ DongThap <--> VinhLong
 BenTre <--> VinhLong
 BenTre <--> TraVinh
 TraVinh <--> VinhLong
+TraVinh <--> SocTrang
 VinhLong <--> CanTho
 AnGiang <--> KienGiang
 AnGiang <--> CanTho
