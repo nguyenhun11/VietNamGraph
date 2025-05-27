@@ -46,10 +46,11 @@ HungYen <--> ThaiBinh
 ThaiBinh <--> HaNam
 ThaiBinh <--> NamDinh
 
-
+LaiChau <--> DienBien
+DienBien <--> SonLa
 LaoCai <--> LaiChau
 LaiChau <--> SonLa
-LaoCai <--> SonLa
+
 LaoCai <--> YenBai
 YenBai <--> SonLa
 YenBai <--> PhuTho
