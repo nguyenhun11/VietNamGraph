@@ -3,11 +3,34 @@
 graph
 
 
+HaGiang <-->
 
 
 
+LaiChau <--> SonLa
+LaoCai <--> SonLa
+LaiChau <--> LaoCai
+LaoCai <--> YenBai
+YenBai <--> SonLa
+YenBai <--> PhuTho
+PhuTho <--> SonLa
+SonLa <--> ThanhHoa
+SonLa <--> HoaBinh
+PhuTho <--> HoaBinh
+PhuTho <--> HaTay
+HaTay <--> HoaBinh
+HaTay <--> HaNam
+HaNam <--> HoaBinh
+HaNam <--> NinhBinh
+HaNam <--> NamDinh
+NamDinh <--> NinhBinh
 
-ThanhHoa <--> NgheAn
+
+HoaBinh <--> ThanhHoa
+HoaBinh <--> NinhBinh
+NinhBinh <--> ThanhHoa
+
+ThanhHoa ---| | NgheAn
 NgheAn <--> HaTinh
 HaTinh <--> QuangBinh
 QuangBinh <--> QuangTri
