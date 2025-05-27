@@ -3,13 +3,53 @@
 graph
 
 
+HaGiang <--> LaoCai
+HaGiang <--> YenBai
+HaGiang <--> TuyenQuang
+HaGiang <--> CaoBang
+CaoBang <--> BacCan
+CaoBang <--> LangSon
+BacCan <--> TuyenQuang
+BacCan <--> ThaiNguyen
+BacCan <--> LangSon
+LangSon <--> ThaiNguyen
+LangSon <--> BacGiang
+LangSon <--> QuangNinh
+QuangNinh <--> HaiDuong
+QuangNinh <--> HaiPhong
+TuyenQuang <--> YenBai
+TuyenQuang <--> PhuTho
+TuyenQuang <--> VinhPhuc
+TuyenQuang <--> ThaiNguyen
+ThaiNguyen <--> VinhPhuc
+ThaiNguyen <--> HaNoi
+ThaiNguyen <--> BacGiang
+BacGiang <--> HaNoi
+BacGiang <--> BacNinh
+BacGiang <--> HaiDuong
+BacGiang <--> QuangNinh
+BacNinh <--> HaNoi
+BacNinh <--> HungYen
+BacNinh <--> HaiDuong
+HaiDuong <--> HungYen
+HaiDuong <--> ThaiBinh
+HaiDuong <--> HaiPhong
+HaiPhong <--> ThaiBinh
+VinhPhuc <--> PhuTho
+VinhPhuc <--> HaTay
+VinhPhuc <--> HaNoi
+HaNoi <--> HaTay
+HaNoi <--> HungYen
+HungYen <--> HaTay
+HungYen <--> HaNam
+HungYen <--> ThaiBinh
+ThaiBinh <--> HaNam
+ThaiBinh <--> NamDinh
 
 
-
-
+LaoCai <--> LaiChau
 LaiChau <--> SonLa
 LaoCai <--> SonLa
-LaiChau <--> LaoCai
 LaoCai <--> YenBai
 YenBai <--> SonLa
 YenBai <--> PhuTho
